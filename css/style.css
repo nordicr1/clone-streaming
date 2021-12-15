@@ -1,0 +1,233 @@
+/*
+Theme Name: KenzieFlix
+Author: Kenzie Academy
+Author URI: kenzie.com.br;
+Version: 1.0
+ 
+--------------------------------------------
+SUGESTÃO DE ESTRUTURAÇÃO BASE 
+--------------------------------------------
+**** DECLARAÇÃO DE VARIÁVEIS
+**** BODY
+**** TOPO
+**** RODAPÉ
+**** PÁGINA INICIAL
+*/
+
+/* VARIÁVEIS */
+:root{
+  
+}
+
+/*BODY*/
+	body{
+	background-color: #00002E;
+	
+	}
+
+/*TOPO*/
+	header.topo{
+		
+	}
+
+/*RODAPÉ*/
+	
+
+/*PÁGINA INICIAL*/
+	div.pg-home{
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-content: center;
+    	flex-wrap: wrap;
+    	align-items: center;
+	}
+
+	section{
+		width: 858px;
+	}
+
+	figure > .logo{
+		width: 186px;
+		
+	}
+
+	li{
+		justify-content: center;
+		text-align: center;
+		padding: 20px;
+		margin-top: 50px;
+		
+	}
+
+
+	ul{
+		display: flex;
+		justify-content: center;
+		
+		
+	}
+
+	li{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	h2{
+		display: flex;
+		justify-content: space-around;
+		color: white;
+		font-size: 50px;
+		font-family: Helvetica;
+		font-weight: bolder;
+
+
+	}
+
+	h3{
+		color: white;
+		font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+		
+	}
+
+	footer{
+		display: flex;
+		justify-content: center;
+	}
+
+	figcaption{
+		color: transparent;
+	}
+
+	button {
+		background-color: transparent;
+		border: none;
+		color: white;
+		padding: 10px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border: 2px solid #e7e7e7;
+		margin-top: 30px;
+		border-radius: 5px;
+		
+
+	}
+
+	ul> li:hover{
+		background: transparent;
+		font-weight: bolder;
+		cursor: pointer;
+	}
+
+	@media screen and (max-width: 1050px) {  
+		ul{
+			flex-wrap: wrap;
+
+		}
+		section{
+			width: fit-content;
+			max-width: 676px;
+		}
+		.topo{
+			display: flex;
+			justify-content: center;
+		}
+		
+	}
+
+	@media screen and (max-width: 547px) {
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			
+			
+			
+
+		}
+		li{
+			width: fit-content;
+			max-width: 320px;
+		}
+		
+
+		h2{
+			display: flex;
+			font-size: 35px;
+			justify-content: center;
+		}
+
+
+		h3{
+			display: flex;
+			text-align:justify;
+			justify-content: center;
+			
+		}
+	}
+	
+	@media screen and (max-width: 452px) {
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			
+			
+		
+		}
+		li{
+			width: fit-content;
+			max-width: 150px;
+			justify-content: center;
+			margin: 0 auto;
+		}
+		
+
+		h2{
+			display: flex;
+			font-size: 35px;
+			justify-content: center;
+		}
+
+		h3{
+			display: flex;
+			justify-content: center;
+		}
+	}
+	
+	@media screen and (max-width: 384px) {
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			
+		
+		}
+		li{
+			width: fit-content;
+			max-width: 120px;
+			justify-content: center;
+			
+			
+		}
+		
+
+		h2{
+			display: flex;
+			font-size: 25px;
+			justify-content: center;
+		}
+
+		h3{
+			display: flex;
+			justify-content: center;
+		}
+	}
+	
+	
+
+	
+	
